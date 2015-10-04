@@ -1,7 +1,7 @@
-SRILM_LIBS=/home/speech/Resources/Tools/srilm/lib/i686-m64
-SRILM_INC=/home/speech/Resources/Tools/srilm/include
+SRILM_LIBS=~/src/srilm/srilm-1.7.1/lib
+SRILM_INC=~/src/srilm/srilm-1.7.1/include
 PYTHON_INC=/opt/python/2.7/include/python2.7
-PERL_INC=/usr/lib64/perl5/CORE
+#PERL_INC=/usr/lib64/perl5/CORE
 
 python: clean _srilm.so
 
